@@ -15,7 +15,7 @@
 
 ## Description
 
-DESCRIBE
+Simple address book application that can create contacts and add, delete, and find them in an address book.
 
 ## Setup/Installation Requirements
 
