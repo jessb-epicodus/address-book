@@ -4,6 +4,8 @@
 
 #### _Address Book_
 
+#### _Epicodus - Intermediate JavaScript - Object-Oriented JavaScript_
+
 ## Technologies Used
 
 * GIT
@@ -15,7 +17,7 @@
 
 ## Description
 
-Simple address book application that can create contacts and add, delete, and find them in an address book.
+Simple address book application that can create contacts and add, delete and find them in an address book.
 
 ## Setup/Installation Requirements
 
@@ -31,5 +33,8 @@ Simple address book application that can create contacts and add, delete, and fi
 
 ## License
 
+_If you run into any issues or have questions, ideas or concerns or wish to make a contribution to the code, see contact information below._
+* Eric Crudup: briefcasemanx@gmail.com
+* Jessica Baker: jessb.epicodus@gmail.com
 
 Copyright (c) _Jan 2022_ _Jessica Baker & Eric Crudup_

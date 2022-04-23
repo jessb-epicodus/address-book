@@ -4,14 +4,14 @@ function AddressBook() {
   this.currentId = 0;
 }
 
-AddressBook.prototype.addContact = function(contact) {
-  contact.id = this.assignId();
-  this.contacts[contact.id] = contact; 
-};
-
 AddressBook.prototype.assignId = function() {
   this.currentId += 1; //auto-adds sequential  ID to contact object
   return this.currentId;
+};
+
+AddressBook.prototype.addContact = function(contact) {
+  contact.id = this.assignId();
+  this.contacts[contact.id] = contact; 
 };
 
 AddressBook.prototype.findContact = function(id) {
@@ -24,7 +24,7 @@ AddressBook.prototype.findContact = function(id) {
 AddressBook.prototype.deleteContact = function(id) {
   if (this.contacts[id] === undefined) {
     return false;
-  }
+  } 
   delete this.contacts[id];
   return true;
 };
